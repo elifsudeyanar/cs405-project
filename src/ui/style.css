@@ -1,0 +1,23 @@
+html, body { margin: 0; height: 100%; background: #0b0b0d; color: #e8e4dc; font: 13px/1.4 "Segoe UI", Inter, system-ui, sans-serif; overflow: hidden; }
+canvas#gpu { position: fixed; inset: 0; width: 100vw; height: 100vh; display: block; touch-action: none; }
+
+#info {
+  position: fixed; left: 10px; top: 10px; bottom: 10px; width: 440px; overflow-y: auto;
+  display: flex; flex-direction: column; gap: 6px; pointer-events: none;
+}
+#info details { pointer-events: auto; background: rgba(18, 18, 22, 0.86); border: 1px solid #34363c; border-radius: 8px; padding: 6px 10px; }
+#info summary { cursor: pointer; font-weight: 700; color: #f0b27a; user-select: none; }
+#info pre { margin: 6px 0 2px; font: 11.5px/1.35 "JetBrains Mono", Consolas, Menlo, monospace; color: #dcdcdc; white-space: pre; overflow-x: auto; }
+#info .pair { display: flex; gap: 10px; }
+#info .pair > div { flex: 1; min-width: 0; }
+#info .tag { font-size: 11px; color: #9a958c; }
+#info .on { color: #8fd18f; }
+#info .muted { color: #8a857c; }
+
+#viewLabels { position: fixed; inset: 0; pointer-events: none; }
+#viewLabels span { position: absolute; top: 8px; font-weight: 700; font-size: 12px; background: rgba(0, 0, 0, 0.55); padding: 2px 8px; border-radius: 4px; }
+
+#error[hidden] { display: none; }
+#error { position: fixed; inset: 0; display: grid; place-items: center; background: #111; color: #f88; font-size: 16px; padding: 40px; text-align: center; white-space: pre-wrap; }
+
+.lil-gui.root { --width: 290px; }

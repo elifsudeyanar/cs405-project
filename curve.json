@@ -1,0 +1,102 @@
+{
+  "painting": {
+    "artist": "Seker Ahmed Pasa",
+    "title": "Kavunlu Naturmort"
+  },
+  "coordinates": "normalised painting coordinates, u to the right and v up, both in [0, 1]",
+  "type": "piecewise cubic Bezier",
+  "segments": 3,
+  "continuity": "C1",
+  "c1Error": 1.67e-16,
+  "controlPoints": [
+    {
+      "u": 0.297,
+      "v": 0.7652,
+      "role": "knot"
+    },
+    {
+      "u": 0.3364,
+      "v": 0.8304,
+      "role": "handle"
+    },
+    {
+      "u": 0.4167,
+      "v": 0.8739,
+      "role": "handle"
+    },
+    {
+      "u": 0.5076,
+      "v": 0.887,
+      "role": "knot"
+    },
+    {
+      "u": 0.5985,
+      "v": 0.9001,
+      "role": "handle"
+    },
+    {
+      "u": 0.6894,
+      "v": 0.8739,
+      "role": "handle"
+    },
+    {
+      "u": 0.7652,
+      "v": 0.8217,
+      "role": "knot"
+    },
+    {
+      "u": 0.841,
+      "v": 0.7695,
+      "role": "handle"
+    },
+    {
+      "u": 0.8818,
+      "v": 0.7,
+      "role": "handle"
+    },
+    {
+      "u": 0.8848,
+      "v": 0.613,
+      "role": "knot"
+    }
+  ],
+  "catmullRomKnots": [
+    {
+      "u": 0.297,
+      "v": 0.7652
+    },
+    {
+      "u": 0.5076,
+      "v": 0.887
+    },
+    {
+      "u": 0.7652,
+      "v": 0.8217
+    },
+    {
+      "u": 0.8848,
+      "v": 0.613
+    }
+  ],
+  "leastSquaresFit": {
+    "control": [
+      {
+        "u": 0.8451,
+        "v": 0.3315
+      },
+      {
+        "u": 0.624,
+        "v": 0.1347
+      },
+      {
+        "u": 0.2501,
+        "v": 0.0862
+      },
+      {
+        "u": 0.2065,
+        "v": 0.3339
+      }
+    ],
+    "rms": 0.008126
+  }
+}
